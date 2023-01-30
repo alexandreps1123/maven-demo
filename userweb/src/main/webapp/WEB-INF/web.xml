@@ -4,4 +4,24 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>CreateUserServlet</servlet-name>
+    <display-name>CreateUserServlet</display-name>
+    <servlet-class>com.parkus.user.servlets.CreateUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DisplayUserDetailsServlet</servlet-name>
+    <display-name>DisplayUserDetailsServlet</display-name>
+    <servlet-class>com.parkus.user.servlets.DisplayUserDetailsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>CreateUserServlet</servlet-name>
+    <url-pattern>/CreateUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DisplayUserDetailsServlet</servlet-name>
+    <url-pattern>/DisplayUserDetailsServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
