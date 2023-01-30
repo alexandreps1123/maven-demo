@@ -12,3 +12,7 @@ $ mvn install
 $ java -cp target/mavendemo-1.0-SNAPSHOT.jar com.parkus.App
 ```
 
+Maven command to skip test:
+```
+$ mvn install -DskipTests
+```
