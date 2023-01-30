@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.parkus</groupId>
-  <artifactId>mavendemoservices</artifactId>
+  <artifactId>userservices</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
 
-  <name>mavendemoservices</name>
+  <name>userservices</name>
   <url>http://maven.apache.org</url>
 
   <dependencies>

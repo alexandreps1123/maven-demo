@@ -9,7 +9,7 @@ $ mvn archetype:generate -DgroupId=com.parkus -DartifactId=mavendemo -Darchetype
 Run mavendemo:
 ```
 $ mvn install
-$ java -cp target/mavendemoservices-1.0-SNAPSHOT.jar com.parkus.App
+$ java -cp target/userservices-1.0-SNAPSHOT.jar com.parkus.App
 ```
 
 Maven command to skip test:
